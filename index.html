@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="session" id="session-1">
+	<!--  - - - - - - - - - - - - - - - - - - - - - - - SESION 1 "PORTADA"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <div class="card-container">
+            <div class="card">
+                <div class="face front">
+                    
+                    <h3>Portada</h3>
+					
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+
+                </div>
+                <div class="face back">
+                    <h3>Portada</h3>
+					
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+        </div>
+		<!--  - - - - - - - - - - - - - - - - - - - - - - BOTONES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- BOTON DE SESION >> -->
+        <div class="nav-buttons">
+            <span class="arrow left" onclick="showSession(2)">
+                <img src="img/flechas_scroll/imgF2.png" alt="Flecha izquierda">
+            </span>
+        </div>
+    </div>
+<!-- ----------------------------------------------------------- SESION 2----------------------------------------------------------------- -->
+    <div class="session" id="session-2" style="display: none;">
+        <div class="card-container">
+        <!--  - - - - - - - - - - - - - - - - - - - - - - CARTA 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->    
+     		 <div class="card">
+				<div class="face front">
+				<h3 style="color:#fff;">Fiestas Patronales</h3>
+			    <br>
+				<br>
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img style="width:100px;"src="img/img_card/imgIS.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">15 de mayo: Fiesta a San Isidro Labrado</p>
+				</div>
+								
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/imgS.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">Junio Sagrado Corazon De Jesus</p>
+				</div>	
+				
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/portada.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">15 y 16 de Noviembre La Hermita</p>
+				</div>
+			
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->    
+				<div class="face back">
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/imgV.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">Del 10 al 13 de Diciembre A la Virgen De Guadalupe</p>
+				</div>
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+			<!--  - - - - - - - - - - - - - - - - - - - - - - CARTA 2 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <div class="card">
+                <div class="face front">
+				
+				<h3 style="color:#fff;">Gastronomia</h3>
+			    <br>
+				<br>
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/portada.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">15 de mayo: Fiesta a San Isidro Labrado</p>
+				</div>
+				
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+                <div class="face back">
+                <h3 style="color:#fff;">¿Como Llegar?</h3>
+			    <br>
+				<br>
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/portada.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">15 de mayo: Fiesta a San Isidro Labrado</p>
+				</div>
+					
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+			<!--  - - - - - - - - - - - - - - - - - - - - - - CARTA 3 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <div class="card">
+                <div class="face front">
+                <h3 style="color:#fff;">Arquitectura</h3>
+			    <br>
+				<br>
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/portada.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">15 de mayo: Fiesta a San Isidro Labrado</p>
+				</div>
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+                <div class="face back">
+                <h3 style="color:#fff;">Lugares Por Visitar</h3>
+			    <br>
+				<br>
+				<div class="cont">
+				    <!-- IMAGEN-->
+					<img src="img/img_card/portada.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">15 de mayo: Fiesta a San Isidro Labrado</p>
+				</div>
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+        </div>
+		<!--  - - - - - - - - - - - - - - - - - - - - - - - - - BOTONES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- BOTON DE SESION >> -->
+        <div class="nav-buttons">
+            <span class="arrow left" onclick="showSession(1)">
+                <img src="img/flechas_scroll/imgF1.png" alt="Flecha izquierda">
+            </span>
+        </div>
+    </div>
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
