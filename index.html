@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="session" id="session-1">
+	<!--  - - - - - - - - - - - - - - - - - - - - - - - SESION 1 "PORTADA"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <div class="card-container">
+            <div class="card">
+                <div class="face front">
+                    <br>
+					<p class="text_p">Colegio de Estudios Cientificos y</p>
+					<p class="text_p">Tecnologicos del Estado de Querétaro</p>
+					<p class="text_p">Plantel No° 83 Ignacio Lopez Rayón</p>
+					<p class="text_p">3B TPGA</p>
+					<p class="text_p">PAEC Inglés</p>
+					<br>
+					<p class="text_p">Getting to know the Sauz Alto</p>
+					<br>
+				    <!-- IMAGEN-->
+					<img style="height:300px; border-radius:5px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgP.jpg">
+
+					
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+
+                </div>
+                <div class="face back">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+                    <p class="text_p">Team members:</p>
+					<p class="text_p" style="font-size:12px;">Team The Girls</p>
+					<br>
+					<ul class="team-list">
+						<li>Arteaga Olvera América Abigail</li>
+						<li>Martínez Reséndiz Maria José</li>
+						<li>Reséndiz Ramirez Yoselin</li>
+						<li>Reyes Eligió Karla</li>
+						<li>Sanches Morales Jocelyn</li>
+						<li>Valtierra Dominguez Vania</li>
+					</ul>
+
+
+					
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+        </div>
+		<!--  - - - - - - - - - - - - - - - - - - - - - - BOTONES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- BOTON DE SESION >> -->
+        <div class="nav-buttons">
+            <span class="arrow left" onclick="showSession(2)">
+                <img src="img/flechas_scroll/imgF2.png" alt="Flecha izquierda">
+            </span>
+        </div>
+    </div>
+<!-- ----------------------------------------------------------- SESION 2----------------------------------------------------------------- -->
+    <div class="session" id="session-2" style="display: none;">
+        <div class="card-container">
+        <!--  - - - - - - - - - - - - - - - - - - - - - - CARTA 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->    
+     		 <div class="card">
+				<div class="face front">
+				<h3 class="text_p">Patron Saint Festivities</h3>
+			    <br>
+				    <!-- IMAGEN-->
+					<center><img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);"src="img/img_card/imgSA.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)"></center>
+					<!-- TEXTO-->
+					<p class="text">In the community of Sauz Alto, the festival of San Isidro Labrador is celebrated with great devotion and joy.</p>
+				    <br>
+					<br>
+				    <!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgS.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">In the community of Sauz Alto, the feast of the Sacred Heart of Jesus is celebrated with deep devotion and joy, reflecting their strong faith.</p>
+					<br>
+					<br>
+				    <!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgH.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">On November 15 and 16, a celebration of her great devotion is celebrated in the community of Sauz Alto in the Hermitage of the Virgin Mary.</p>
+					<br>
+					<br>
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->    
+				<div class="face back">
+					<br>
+					<br>
+				    <!-- IMAGEN-->
+					<img style="height:160px; width:100px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgV.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">It is a significant event in Mexico and other countries when the Virgin is celebrated in her honor for everything she has done while they also love the Virgin to celebrate her on her day.</p>
+				
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+			<!--  - - - - - - - - - - - - - - - - - - - - - - CARTA 2 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <div class="card">
+				<div class="face front">
+					<h3 class="text_p">Gastronomy</h3>
+					<br>
+					<!-- IMAGEN -->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgG-C.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO -->
+					<p class="text">In the tall sauz community it is very common to find gorditas de carnitas when entering the tall sauz.</p>
+					<br>
+					<br>
+					<!-- IMAGEN -->
+					<img style="height:105px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgT.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO -->
+					<p class="text">In Sauz Alto, they eat tamales during rosaries as part of a beloved tradition. These meetings bring families together.</p>
+					<br>
+					<br>
+					<!-- IMAGEN -->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgPM.jpeg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO -->
+					<p class="text">In the Sauz Alto community it is very common to find the gastronomy of pambazos and enchiladas during the day or night.</p>
+
+					<!-- BOTON DE VOLVER HOJA 1 -->
+					<img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+				</div>
+                <div class="face back">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+                <h3 class="text_p">How to get there?</h3>
+				<p class="text">26 min (24.0 km) along Carr. Querétaro - México/Tuxpan - Mexico/México 45/México 45D/México 57 N</p>
+			    <br>
+				<div class="cont">
+				    <!-- TEXTO-->
+					<br>
+				    <!-- IMAGEN-->
+					<img style="filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgM.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<br>
+					<!-- BOTON DE UBICACIÓN -->
+					<button 
+						style="margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;" 
+						onclick="window.open('https://maps.app.goo.gl/h2GRNyRRBXGdpnVL6', '_blank')">
+						See location of Sauz Alto
+					</button>
+				</div>
+					
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+            </div>
+			<!--  - - - - - - - - - - - - - - - - - - - - - - CARTA 3 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <div class="card">
+                <div class="face front">
+                <h3 class="text_p">Architecture</h3>
+			    <br>
+				    <!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/portada.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">The building of the El Sauz Alto Church is one of the most revered within the community with its unique design.</p>
+					<br>
+					<br>
+					<!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgAR.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">The construction of these structures is made of pure superimposed stone and has now become the common land of the community.</p>
+					<br>
+					<br>
+					<!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.5);" src="img/img_card/imgAU.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<!-- TEXTO-->
+					<p class="text">The building of these auditorium structures is very large and is used for special events and is also part of the community ejido.</p>
+					<!-- BOTON DE VOLVER HOJA 1 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+                </div>
+				
+                <div class="face back">
+                <h3 class="text_p">Places to Visit</h3>
+			    <br>
+				    <!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.2);" src="img/img_card/imgAA.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<br>
+					<!-- TEXTO-->
+					<p class="text">A place to visit would be the church garden, as sometimes a small Saturday market with desserts is set up there and it is an ideal place to go out with the family.</p>
+					<br>
+					<br>
+					<!-- IMAGEN-->
+					<img style="height:100px; width:140px; filter: brightness(1.1) contrast(1.2);" src="img/img_card/imgB.jpg" class="image" tabindex="0" onclick="expandImage(this)" ondblclick="collapseImage(this)">
+					<br>
+					<!-- TEXTO-->
+					<p class="text">On the other hand, we have the library, which is a quiet place where you can spend time doing homework or just go read a book.</p>
+					
+					<!-- BOTON DE VOLVER HOJA 2 -->
+                    <img src="img/flecha_regresar/imgR.png" alt="Volver" class="flip-btn" onclick="flipCard(this)">
+					
+                </div>
+            </div>
+        </div>
+		<!--  - - - - - - - - - - - - - - - - - - - - - - - - - BOTONES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- BOTON DE SESION >> -->
+        <div class="nav-buttons">
+            <span class="arrow left" onclick="showSession(1)">
+                <img src="img/flechas_scroll/imgF1.png" alt="Flecha izquierda">
+            </span>
+        </div>
+    </div>
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
